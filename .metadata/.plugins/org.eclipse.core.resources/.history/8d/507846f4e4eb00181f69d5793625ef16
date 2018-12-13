@@ -1,0 +1,5 @@
+package com.prashant.dao;
+
+public class PersonDAO {
+
+}

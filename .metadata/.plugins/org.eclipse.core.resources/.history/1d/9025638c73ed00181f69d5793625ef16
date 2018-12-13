@@ -1,0 +1,5 @@
+package com.prashant.kafka;
+
+public class KafkaSender {
+
+}

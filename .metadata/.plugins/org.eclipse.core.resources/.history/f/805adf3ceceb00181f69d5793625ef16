@@ -1,0 +1,3 @@
+Insert into PERSON (Id, Full_Name, Date_Of_Birth) values (1, 'Prashant','1980-12-20');
+
+commit;

@@ -1,0 +1,5 @@
+CREATE TABLE PERSON( 
+    Id INT AUTO_INCREMENT PRIMARY KEY, 
+    Full_Name VARCHAR(255) NOT NULL, 
+    Date_Of_Birth DATE     
+);

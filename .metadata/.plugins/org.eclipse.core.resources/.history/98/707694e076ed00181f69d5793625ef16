@@ -1,0 +1,13 @@
+package com.prashant.kafka;
+
+public class KafkaReceiver {
+	
+	
+	
+	@KafkaListener(topics = "MyTopic")
+	  public void receive(String payload) {
+	    LOGGER.info("received payload='{}'", payload);
+	    latch.countDown();
+	  }
+
+}

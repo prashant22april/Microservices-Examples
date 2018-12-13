@@ -1,0 +1,4 @@
+#spring.kafka.bootstrap-servers=localhost:2181
+
+
+spring.kafka.consumer.group-id=MyGroup
